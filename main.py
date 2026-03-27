@@ -2,6 +2,8 @@ from fastapi import FastAPI
 import yfinance as yf
 import time
 from fastapi.middleware.cors import CORSMiddleware
+import threading
+import requests
 
 app = FastAPI()
 
@@ -146,3 +148,25 @@ def get_portfolio():
         if CACHE:
             return CACHE
         return {"error": str(e)}
+
+URL = "https://fin-api-v2.onrender.com/health"
+
+def self_ping():
+    while True:
+        try:
+            res = requests.get(URL, timeout=10)
+            print("Ping:", res.status_code)
+        except Exception as e:
+            print("Ping failed:", e)
+        
+        time.sleep(300)  # 5 minutes
+
+# run in background
+threading.Thread(target=self_ping, daemon=True).start()
+
+@app.route("/health")
+def health():
+    return "OK", 200
+
+if __name__ == "__main__":
+    app.run()
