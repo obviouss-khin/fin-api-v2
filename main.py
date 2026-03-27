@@ -4,6 +4,8 @@ import time
 
 app = FastAPI()
 
+CORS(app, resources={r"/*": {"origins": "*"}})
+
 CACHE = {}
 LAST_FETCH = 0
 
