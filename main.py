@@ -1,10 +1,17 @@
 from fastapi import FastAPI
 import yfinance as yf
 import time
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-CORS(app, resources={r"/*": {"origins": "*"}})
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or ["http://localhost:5500"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 CACHE = {}
 LAST_FETCH = 0
