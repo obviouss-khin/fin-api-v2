@@ -27,6 +27,10 @@ INDICES = {
     "MIDCAP NIFTY": "^NSEMDCP50"
 }
 
+@app.get("/")
+def home():
+    return {"status": "ok"}
+
 @app.get("/portfolio")
 def get_portfolio():
     global LAST_FETCH, CACHE
