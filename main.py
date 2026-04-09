@@ -164,9 +164,7 @@ def self_ping():
 # run in background
 threading.Thread(target=self_ping, daemon=True).start()
 
-@app.route("/health")
+@app.get("/health")
 def health():
-    return "OK", 200
+    return {"status": "OK"}
 
-if __name__ == "__main__":
-    app.run()
