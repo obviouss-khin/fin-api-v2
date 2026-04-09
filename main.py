@@ -168,3 +168,6 @@ threading.Thread(target=self_ping, daemon=True).start()
 def health():
     return {"status": "OK"}
 
+@app.api_route("/", methods=["GET", "HEAD"])
+def home():
+    return {"status": "ok"}
