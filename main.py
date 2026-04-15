@@ -24,7 +24,7 @@ PORTFOLIO = [
     {"symbol": "EMMVEE.NS", "qty": 50, "avg": 215.23},
     {"symbol": "INOXWIND.NS", "qty": 50, "avg": 183.76},
     {"symbol": "PPLPHARMA.NS", "qty": 40, "avg": 204.10},
-    {"symbol": "RVNL.NS", "qty": 15, "avg": 349.50},
+    {"symbol": "RVNL.NS", "qty": 12, "avg": 349.50},
     {"symbol": "SUZLON.NS", "qty": 136, "avg": 67.86},
     {"symbol": "GREAVESCOT.NS", "qty": 1, "avg": 217.74},
     {"symbol": "EDELWEISS.NS", "qty": 1, "avg": 117.50},
