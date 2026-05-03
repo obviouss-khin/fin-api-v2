@@ -136,6 +136,7 @@ def get_portfolio():
                 "total_percent": round(total_percent, 2),
                 "day_change": round(total_day_change, 2),
                 "day_percent": round(total_day_percent, 2),
+                "wallet": round(total_return + 9527.60, 2),
             }
         }
 
