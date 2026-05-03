@@ -63,7 +63,7 @@ def get_portfolio():
         # 🔹 STOCKS
         for stock in PORTFOLIO:
             ticker = tickers.tickers[stock["symbol"]]
-            hist = ticker.history(period="2d")
+            hist = ticker.history(period="5d")
 
             if len(hist) < 2:
                 continue
@@ -111,7 +111,7 @@ def get_portfolio():
 
         for name, symbol in INDICES.items():
             ticker = tickers.tickers[symbol]
-            hist = ticker.history(period="2d")
+            hist = ticker.history(period="5d")
 
             if len(hist) < 2:
                 continue
