@@ -29,6 +29,9 @@ PORTFOLIO = [
     {"symbol": "GREAVESCOT.NS", "qty": 1, "avg": 217.74},
     {"symbol": "EDELWEISS.NS", "qty": 1, "avg": 117.50},
     {"symbol": "VIMTALABS.NS", "qty": 4, "avg": 716.85},
+
+    {"symbol": "ASHAPURMIN.NS", "qty": 10, "avg": 638.40},
+    {"symbol": "SKIPPER.NS", "qty": 20, "avg": 480.00},
 ]
 
 INDICES = {
