@@ -32,6 +32,7 @@ PORTFOLIO = [
 
     {"symbol": "ASHAPURMIN.NS", "qty": 10, "avg": 638.40},
     {"symbol": "SKIPPER.NS", "qty": 20, "avg": 480.00},
+    {"symbol": "NAVKARCORP.NS", "qty": 50, "avg": 100.66},
 ]
 
 INDICES = {
