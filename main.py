@@ -32,13 +32,13 @@ PORTFOLIO = [
     {"symbol": "NAVKARCORP.NS", "qty": 50, "avg": 100.66},
     {"symbol": "NSLNISP.NS", "qty": 100, "avg": 46.95},    
 {"symbol": "ASHOKLEY.NS", "qty": 100, "avg": 143.89},  
-    {"symbol": "SIYSIL.NS", "qty": 10, "avg": 635.80},          # Siyaram Silk Mills
-    {"symbol": "ALLTIME.NS", "qty": 30, "avg": 234.38},        # All Time Plastics
-    {"symbol": "DCXINDIA.NS", "qty": 25, "avg": 194.23},     # DCX Systems
-    {"symbol": "MAMATA.NS", "qty": 50, "avg": 414.95},         # Mamata Machinery
-    {"symbol": "WELSPUNLIV.NS", "qty": 70, "avg": 162.04},     # Welspun Living
-    {"symbol": "CANBK.NS", "qty": 100, "avg": 125.86},         # Canara Bank
-    {"symbol": "REDINGTON.NS", "qty": 35, "avg": 275.52},      # Redington
+    {"symbol": "SIYSIL.NS", "qty": 10, "avg": 633.88},        # Siyaram Silk Mills
+{"symbol": "ALLTIME.NS", "qty": 30, "avg": 248.98},       # All Time Plastics
+{"symbol": "DCXINDIA.NS", "qty": 25, "avg": 194.70},      # DCX Systems
+{"symbol": "MAMATA.NS", "qty": 50, "avg": 372.11},        # Mamata Machinery
+{"symbol": "WELSPUNLIV.NS", "qty": 70, "avg": 153.58},    # Welspun Living
+{"symbol": "CANBK.NS", "qty": 100, "avg": 133.81},        # Canara Bank
+{"symbol": "REDINGTON.NS", "qty": 35, "avg": 245.65},     # Redington      # Redington
 ]
 
 INDICES = {
