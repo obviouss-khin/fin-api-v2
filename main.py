@@ -19,7 +19,7 @@ CACHE = {}
 LAST_FETCH = 0
 
 PORTFOLIO = [
-    {"symbol": "YATHARTH.NS", "qty": 10, "avg": 813.80},
+    {"symbol": "YATHARTH.NS", "qty": 8, "avg": 813.80},
     {"symbol": "BDL.NS", "qty": 12, "avg": 1717.50},
     {"symbol": "EMMVEE.NS", "qty": 50, "avg": 215.23},
     {"symbol": "INOXWIND.NS", "qty": 50, "avg": 183.76},
@@ -29,12 +29,17 @@ PORTFOLIO = [
     {"symbol": "GREAVESCOT.NS", "qty": 1, "avg": 217.74},
     {"symbol": "EDELWEISS.NS", "qty": 1, "avg": 117.50},
     {"symbol": "VIMTALABS.NS", "qty": 4, "avg": 716.85},
-
-    {"symbol": "ASHAPURMIN.NS", "qty": 10, "avg": 638.40},
-    {"symbol": "SKIPPER.NS", "qty": 20, "avg": 480.00},
     {"symbol": "NAVKARCORP.NS", "qty": 50, "avg": 100.66},
     {"symbol": "NSLNISP.NS", "qty": 100, "avg": 46.95},    
 {"symbol": "ASHOKLEY.NS", "qty": 100, "avg": 143.89},  
+    {"symbol": "SIYSIL.NS", "qty": 7, "avg": 635.80},          # Siyaram Silk Mills
+    {"symbol": "ALLTIME.NS", "qty": 30, "avg": 234.38},        # All Time Plastics
+    {"symbol": "DCXSYSTEMS.NS", "qty": 25, "avg": 194.23},     # DCX Systems
+    {"symbol": "NMDCSTEEL.NS", "qty": 100, "avg": 43.12},      # NMDC Steel
+    {"symbol": "MAMATA.NS", "qty": 50, "avg": 414.95},         # Mamata Machinery
+    {"symbol": "WELSPUNLIV.NS", "qty": 70, "avg": 162.04},     # Welspun Living
+    {"symbol": "CANBK.NS", "qty": 100, "avg": 125.86},         # Canara Bank
+    {"symbol": "REDINGTON.NS", "qty": 35, "avg": 275.52},      # Redington
 ]
 
 INDICES = {
