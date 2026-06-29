@@ -34,8 +34,7 @@ PORTFOLIO = [
 {"symbol": "ASHOKLEY.NS", "qty": 100, "avg": 143.89},  
     {"symbol": "SIYSIL.NS", "qty": 10, "avg": 635.80},          # Siyaram Silk Mills
     {"symbol": "ALLTIME.NS", "qty": 30, "avg": 234.38},        # All Time Plastics
-    {"symbol": "DCXSYSTEMS.NS", "qty": 25, "avg": 194.23},     # DCX Systems
-    {"symbol": "NMDCSTEEL.NS", "qty": 100, "avg": 43.12},      # NMDC Steel
+    {"symbol": "DCXINDIA.NS", "qty": 25, "avg": 194.23},     # DCX Systems
     {"symbol": "MAMATA.NS", "qty": 50, "avg": 414.95},         # Mamata Machinery
     {"symbol": "WELSPUNLIV.NS", "qty": 70, "avg": 162.04},     # Welspun Living
     {"symbol": "CANBK.NS", "qty": 100, "avg": 125.86},         # Canara Bank
