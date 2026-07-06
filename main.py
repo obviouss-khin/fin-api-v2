@@ -21,7 +21,7 @@ LAST_FETCH = 0
 PORTFOLIO = [
     {"symbol": "YATHARTH.NS", "qty": 8, "avg": 813.80},
     {"symbol": "BDL.NS", "qty": 12, "avg": 1717.50},
-    {"symbol": "EMMVEE.NS", "qty": 50, "avg": 215.23},
+    # {"symbol": "EMMVEE.NS", "qty": 50, "avg": 215.23},
     {"symbol": "INOXWIND.NS", "qty": 50, "avg": 183.76},
     {"symbol": "PPLPHARMA.NS", "qty": 40, "avg": 204.10},
     {"symbol": "RVNL.NS", "qty": 12, "avg": 349.50},
@@ -29,7 +29,7 @@ PORTFOLIO = [
     {"symbol": "GREAVESCOT.NS", "qty": 1, "avg": 217.74},
     {"symbol": "EDELWEISS.NS", "qty": 1, "avg": 117.50},
     {"symbol": "VIMTALABS.NS", "qty": 4, "avg": 716.85},
-    {"symbol": "NAVKARCORP.NS", "qty": 50, "avg": 100.66},
+    # {"symbol": "NAVKARCORP.NS", "qty": 50, "avg": 100.66},
     {"symbol": "NSLNISP.NS", "qty": 100, "avg": 46.95},    
 {"symbol": "ASHOKLEY.NS", "qty": 100, "avg": 143.89},  
     {"symbol": "SIYSIL.NS", "qty": 10, "avg": 633.88},        # Siyaram Silk Mills
@@ -38,7 +38,7 @@ PORTFOLIO = [
 {"symbol": "MAMATA.NS", "qty": 50, "avg": 372.11},        # Mamata Machinery
 {"symbol": "WELSPUNLIV.NS", "qty": 70, "avg": 153.58},    # Welspun Living
 {"symbol": "CANBK.NS", "qty": 100, "avg": 133.81},        # Canara Bank
-{"symbol": "REDINGTON.NS", "qty": 35, "avg": 245.65},     # Redington      # Redington
+# {"symbol": "REDINGTON.NS", "qty": 35, "avg": 245.65},     # Redington      # Redington
 ]
 
 INDICES = {
