@@ -19,26 +19,17 @@ CACHE = {}
 LAST_FETCH = 0
 
 PORTFOLIO = [
-    {"symbol": "YATHARTH.NS", "qty": 8, "avg": 813.80},
-    {"symbol": "BDL.NS", "qty": 12, "avg": 1717.50},
-    # {"symbol": "EMMVEE.NS", "qty": 50, "avg": 215.23},
-    {"symbol": "INOXWIND.NS", "qty": 50, "avg": 183.76},
-    {"symbol": "PPLPHARMA.NS", "qty": 40, "avg": 204.10},
-    {"symbol": "RVNL.NS", "qty": 12, "avg": 349.50},
-    {"symbol": "SUZLON.NS", "qty": 136, "avg": 67.86},
-    {"symbol": "GREAVESCOT.NS", "qty": 1, "avg": 217.74},
-    {"symbol": "EDELWEISS.NS", "qty": 1, "avg": 117.50},
-    {"symbol": "VIMTALABS.NS", "qty": 4, "avg": 716.85},
-    # {"symbol": "NAVKARCORP.NS", "qty": 50, "avg": 100.66},
-    {"symbol": "NSLNISP.NS", "qty": 100, "avg": 46.95},    
-{"symbol": "ASHOKLEY.NS", "qty": 100, "avg": 143.89},  
-    {"symbol": "SIYSIL.NS", "qty": 10, "avg": 633.88},        # Siyaram Silk Mills
-{"symbol": "ALLTIME.NS", "qty": 30, "avg": 248.98},       # All Time Plastics
-{"symbol": "DCXINDIA.NS", "qty": 25, "avg": 194.70},      # DCX Systems
-{"symbol": "MAMATA.NS", "qty": 50, "avg": 372.11},        # Mamata Machinery
-{"symbol": "WELSPUNLIV.NS", "qty": 70, "avg": 153.58},    # Welspun Living
-{"symbol": "CANBK.NS", "qty": 100, "avg": 133.81},        # Canara Bank
-# {"symbol": "REDINGTON.NS", "qty": 35, "avg": 245.65},     # Redington      # Redington
+    {"symbol": "BDL.NS", "qty": 12, "avg": 1717.50},        # Bharat Dynamics
+    {"symbol": "INOXWIND.NS", "qty": 50, "avg": 183.76},    # INOX Wind
+    {"symbol": "PPLPHARMA.NS", "qty": 40, "avg": 204.10},   # Piramal Pharma
+    {"symbol": "RVNL.NS", "qty": 32, "avg": 275.50},        # Rail Vikas Nigam
+    {"symbol": "SUZLON.NS", "qty": 336, "avg": 55.86},      # Suzlon Energy
+    {"symbol": "VIMTALABS.NS", "qty": 4, "avg": 716.85},    # Vimta Labs (kept as-is)
+    {"symbol": "NSLNISP.NS", "qty": 100, "avg": 46.95},     # NMDC Steel
+    {"symbol": "SIYSIL.NS", "qty": 10, "avg": 633.88},      # Siyaram Silk Mills
+    {"symbol": "CANBK.NS", "qty": 100, "avg": 133.81},      # Canara Bank
+    {"symbol": "EMMVEE.NS", "qty": 50, "avg": 336.75},      # Emmvee Photovoltaic
+     {"symbol": "NRBBEARING.NS", "qty": 10, "avg": 432.70},  # NRB Bearings
 ]
 
 INDICES = {
