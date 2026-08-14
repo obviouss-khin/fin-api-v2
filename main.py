@@ -39,6 +39,7 @@ INDICES = {
     "MIDCAP NIFTY": "^NSEMDCP50"
 }
 
+
 @app.get("/")
 def home():
     return {"status": "ok"}
