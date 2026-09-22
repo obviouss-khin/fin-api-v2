@@ -30,6 +30,7 @@ PORTFOLIO = [
     {"symbol": "CANBK.NS", "qty": 100, "avg": 133.81},      # Canara Bank
     {"symbol": "EMMVEE.NS", "qty": 50, "avg": 336.75},      # Emmvee Photovoltaic
      {"symbol": "NRBBEARING.NS", "qty": 10, "avg": 432.70},  # NRB Bearings
+     {"symbol": "DCXINDIA.NS", "qty": 25, "avg": 194.23},
 ]
 
 INDICES = {
