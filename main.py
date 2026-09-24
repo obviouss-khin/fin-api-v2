@@ -19,9 +19,8 @@ CACHE = {}
 LAST_FETCH = 0
 
 PORTFOLIO = [
-    {"symbol": "BDL.NS", "qty": 12, "avg": 1717.50},        # Bharat Dynamics
-    {"symbol": "INOXWIND.NS", "qty": 50, "avg": 183.76},    # INOX Wind
-    {"symbol": "PPLPHARMA.NS", "qty": 40, "avg": 204.10},   # Piramal Pharma
+            # Bharat Dynamics
+    {"symbol": "INOXWIND.NS", "qty": 50, "avg": 183.76},   # Piramal Pharma
     {"symbol": "RVNL.NS", "qty": 32, "avg": 275.50},        # Rail Vikas Nigam
     {"symbol": "SUZLON.NS", "qty": 336, "avg": 55.86},      # Suzlon Energy
     {"symbol": "VIMTALABS.NS", "qty": 4, "avg": 716.85},    # Vimta Labs (kept as-is)
@@ -29,7 +28,7 @@ PORTFOLIO = [
     {"symbol": "SIYSIL.NS", "qty": 10, "avg": 633.88},      # Siyaram Silk Mills
     {"symbol": "CANBK.NS", "qty": 100, "avg": 133.81},      # Canara Bank
     {"symbol": "EMMVEE.NS", "qty": 50, "avg": 336.75},      # Emmvee Photovoltaic
-     {"symbol": "NRBBEARING.NS", "qty": 10, "avg": 432.70},  # NRB Bearings
+       # NRB Bearings
      {"symbol": "DCXINDIA.NS", "qty": 25, "avg": 194.23},
 ]
 
